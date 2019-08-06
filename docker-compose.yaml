@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  lykon:
+    image: lykon/cortisol-mock
+    ports:
+      - '8080:4000'
+    environment:
+      DATASET: 300
