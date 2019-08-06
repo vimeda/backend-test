@@ -35,9 +35,9 @@ We would like you to consume this API and calculate the number of people that ha
 
 Salivary Cortisol normally uses a few samples throughout the day to define the right levels. The cortisol reference ranges for each period of the day are:
 
-morning   -> 0.50 - 0.78
-afternoon -> 0.15 - 0.24
-evening   -> 0.12 - 0.21
+* morning   -> 0.50 - 0.78
+* afternoon -> 0.15 - 0.24
+* evening   -> 0.12 - 0.21
 
 #### If there are two values where the cortisol level is the same, then the final result for that user is the respective value. For instance, if two of the samples have `high` values, then the user is categorized as high cortisol level.
 
