@@ -39,7 +39,9 @@ Salivary Cortisol normally uses a few samples throughout the day to define the r
 * afternoon -> 0.15 - 0.24
 * evening   -> 0.12 - 0.21
 
-#### If there are two values where the cortisol level is the same, then the final result for that user is the respective value. For instance, if two of the samples have `high` values, then the user is categorized as high cortisol level.
+- If there are two values where the cortisol level is the same, then the final result for that user is the respective value. For instance, if two of the samples have `high` values, then the user is categorized as high cortisol level.
+
+- If all three sample results are distinct, then the user is categorized as `normal` cortisol level.
 
 > Please note that the provided values are only used for our testing and do not represent real medical values.
 
